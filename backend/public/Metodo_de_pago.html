@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Método de Pago</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta name="description" content="Selecciona tu método de pago para la creación de contenido.">
+</head>
+<header>
+    <h1>Otros Metodos De Pago </h1>
+    <section id="enlaces">
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Contacto.html">Formulario</a>
+        <a href="pago.html">Pagar</a>
+    </nav>
+    </section>
+</header>
+<body>
+    <h2>Selecciona tu Método de Pago</h2>
+    <form action="/metodo-de-pago" method="POST">
+        <label for="payment-method">Método de Pago:</label>
+        <select id="payment-method" name="paymentMethod" required>
+            <option value="Binance">Binance</option>
+            <option value="Zinli">Zinli</option>
+            <option value="Zelle">Zelle</option>
+            <option value="Paypal">PayPal</option>
+            <option value="Tarjeta">Tarjeta de Crédito o Débito</option>
+        </select>
+        <button type="submit">Continuar</button>
+    </form>
+</body>
+
+<script src="/js/animations.js"></script>
+</html>
